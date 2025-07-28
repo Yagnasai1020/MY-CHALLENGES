@@ -1,0 +1,6 @@
+n = int(input())
+list = []
+for a in range(0,n):
+  list.append(int(a))
+for x in list:
+  print(x**2)
